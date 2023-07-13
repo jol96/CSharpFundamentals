@@ -19,5 +19,6 @@
 
         Console.WriteLine($"Value tuple 1: {valueTuple1} and Value tuple 2: {valueTuple2}");
 
+        // Tuples are reference types and valueTuples are value types
     }
 }
