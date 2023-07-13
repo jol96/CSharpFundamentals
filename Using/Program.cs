@@ -12,6 +12,10 @@ public class Program
     // single file.
     // Example Person
 
+    // The last thing worth mentioning is the global using directive.This feature
+    // is available starting with C# 10. When a type is imported in any file with this
+    // directive, it is like it was imported in all files in the project
+
 
     public static void Main(string[] args)
     {
