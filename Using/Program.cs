@@ -19,11 +19,11 @@ public class Program
 
     public static void Main(string[] args)
     {
-        using PersonDto = Dtos.Person;
-        using PersonDomain = DomainObjects.Person;
+        //using PersonDto = Dtos.Person;
+        //using PersonDomain = DomainObjects.Person;
 
-        var personDto = new PersonDto();
-        var personDomain = new PersonDomain();
+        //var personDto = new PersonDto();
+        //var personDomain = new PersonDomain();
     }
 
 }
