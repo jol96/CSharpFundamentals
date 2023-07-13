@@ -14,11 +14,15 @@
         Func<int, bool> predicate1 = isGreaterThanTen;
         Func<int, bool> predicate2 = isEven;
 
-        Console.WriteLine("IsAnyLargerThan10 " + isAny(number, predicate1));
-        Console.WriteLine("IsEven " + isAny(number, predicate2));
+        Console.WriteLine("Functions: IsAnyLargerThan10 " + isAny(number, predicate1));
+        Console.WriteLine("Functions: IsEven " + isAny(number, predicate2));
+
+        // Using Lambdas
+        Console.WriteLine("Lambdas: IsAnyLargerThan10 " + isAny(number, n => n > 10));
+        Console.WriteLine("Lambdas: IsEven " + isAny(number, n => n % 2 == 0));
     }
 
-    #region standard methods
+    #region Using standard methods
     static bool isLarger(IEnumerable<int> numbers)
     {
         foreach (var number in numbers)
@@ -56,10 +60,8 @@
     }
     #endregion
 
-    // The methods above are very similar except for the if statements.
-    // Lets use functions
 
-#region Using functions
+    #region Using functions
     static bool isAny(int number, Func<int, bool> predicate)
     {
         if (predicate(number))
@@ -87,4 +89,5 @@
         return false;
     }
     #endregion
+
 }
