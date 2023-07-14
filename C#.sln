@@ -3,17 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tuples", "Tuples\Tuples.csproj", "{7956E038-FEB1-4E80-815A-10D1C64ADD71}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tuples", "Tuples\Tuples.csproj", "{7956E038-FEB1-4E80-815A-10D1C64ADD71}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsAs", "IsAs\IsAs.csproj", "{3B3C249A-BC30-4B4D-89FB-0331A7A8208F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IsAs", "IsAs\IsAs.csproj", "{3B3C249A-BC30-4B4D-89FB-0331A7A8208F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Using", "Using\Using.csproj", "{50120846-20D6-469A-9C59-9B4621AA8B0F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Using", "Using\Using.csproj", "{50120846-20D6-469A-9C59-9B4621AA8B0F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpressionBodyMembers", "ExpressionBodyMembers\ExpressionBodyMembers.csproj", "{310B1665-6FFA-4DDA-A132-8DFE303C113E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExpressionBodyMembers", "ExpressionBodyMembers\ExpressionBodyMembers.csproj", "{310B1665-6FFA-4DDA-A132-8DFE303C113E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionsAndLambdas", "FunctionsAndLambdas\FunctionsAndLambdas.csproj", "{06A09F50-2670-4873-9F0C-9C610682D0FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunctionsAndLambdas", "FunctionsAndLambdas\FunctionsAndLambdas.csproj", "{06A09F50-2670-4873-9F0C-9C610682D0FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegates", "Delegates\Delegates.csproj", "{92F586E5-19A5-4E90-94FD-18F578106488}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Delegates", "Delegates\Delegates.csproj", "{92F586E5-19A5-4E90-94FD-18F578106488}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DisposeAndFinalize", "DisposeAndFinalize\DisposeAndFinalize.csproj", "{80B92B07-D196-4790-96FC-8FA8CB2F9E27}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{92F586E5-19A5-4E90-94FD-18F578106488}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92F586E5-19A5-4E90-94FD-18F578106488}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92F586E5-19A5-4E90-94FD-18F578106488}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80B92B07-D196-4790-96FC-8FA8CB2F9E27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80B92B07-D196-4790-96FC-8FA8CB2F9E27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80B92B07-D196-4790-96FC-8FA8CB2F9E27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80B92B07-D196-4790-96FC-8FA8CB2F9E27}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
