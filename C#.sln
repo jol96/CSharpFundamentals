@@ -31,6 +31,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericsMethod", "GenericsM
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericMethodReturnType", "GenericMethodReturnType\GenericMethodReturnType.csproj", "{38AB02CF-A593-49BD-A2B1-9EA179F39231}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstVsReadonly", "ConstVsReadonly\ConstVsReadonly.csproj", "{73A78149-5523-44C4-9C25-8AAD28487D57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefVsOut", "RefVsOut\RefVsOut.csproj", "{F0C4BFE3-282B-44CB-BBBE-D0B466081264}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +97,14 @@ Global
 		{38AB02CF-A593-49BD-A2B1-9EA179F39231}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38AB02CF-A593-49BD-A2B1-9EA179F39231}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38AB02CF-A593-49BD-A2B1-9EA179F39231}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73A78149-5523-44C4-9C25-8AAD28487D57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73A78149-5523-44C4-9C25-8AAD28487D57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73A78149-5523-44C4-9C25-8AAD28487D57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73A78149-5523-44C4-9C25-8AAD28487D57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0C4BFE3-282B-44CB-BBBE-D0B466081264}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0C4BFE3-282B-44CB-BBBE-D0B466081264}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0C4BFE3-282B-44CB-BBBE-D0B466081264}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0C4BFE3-282B-44CB-BBBE-D0B466081264}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
